@@ -1,0 +1,2 @@
+SINHVIEN:tensv,PK.masv,nam,khoa,DT.skill;MONHOC:tenmh,PK.mamh,sotc,khoapt;LOPHOC:PK.malh,mamh,hocky,nam,giangvien;GVCN:PK.magv,tuoi
+1-n:SINHVIEN-LOPHOC;n-n:SINHVIEN-MONHOC;1-1:LOPHOC-GVCN

@@ -1,0 +1,2 @@
+NCC:PK.MaNCC,SDT,TenNCC,KhuVuc,GhiChu;HDNhap:NgayLap,PK.MaHDNhap,TrangThai;HangHoa:DVTinh,Gia,XuatXu,TenHang,PK.MaHang;Kho:PK.IDKho,SoLuong;NhanVien:PK.MaNV,DiaChi,Ten,SDT,GioiTinh;ThanNhan:Ten,DiaChi,QuanHe;HDXuat:NgayLap,PK.MaHDXuat,TrangThai,SoLuong;KhachHang:PK.MaKH,Ten,DiaChi,SDT
+1-n:NCC-HDNhap;1-n:KhachHang-HDXuat;1-n:HangHoa-Kho;1-n:NhanVien-HDNhap;1-1:NhanVien-ThanNhan;n-n:HDNhap-HangHoa

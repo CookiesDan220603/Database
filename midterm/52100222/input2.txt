@@ -1,0 +1,2 @@
+ABCDEFG
+A->B;AD->F;G->D;F->C;CG->

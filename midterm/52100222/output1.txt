@@ -1,0 +1,2 @@
+['NCC:PK.MaNCC,SDT,TenNCC,KhuVuc,GhiChu', 'HDNhap:NgayLap,PK.MaHDNhap,TrangThai,FK.MaNCC,FK.MaNV', 'HangHoa:DVTinh,Gia,XuatXu,TenHang,PK.MaHang', 'Kho:PK.IDKho,SoLuong,FK.MaHang', 'NhanVien:PK.MaNV,DiaChi,Ten,SDT,GioiTinh', 'ThanNhan:Ten,DiaChi,QuanHe,FK.MaNV', 'HDXuat:NgayLap,PK.MaHDXuat,TrangThai,SoLuong,FK.MaKH', 'KhachHang:PK.MaKH,Ten,DiaChi,SDT', 'HDNhap_HangHoa:PK.FK.MaHDNhap,PK.FK.MaHang']
+['1-n:NCC-HDNhap', '1-n:KhachHang-HDXuat', '1-n:HangHoa-Kho', '1-n:NhanVien-HDNhap', '1-1:NhanVien-ThanNhan', '1-n:HDNhap-HDNhap_HangHoa', '1-n:HangHoa-HDNhap_HangHoa']

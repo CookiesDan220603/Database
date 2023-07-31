@@ -1,0 +1,17 @@
+TABLE:Sanpham MaSP(PrimaryKey),TenSP,Giaban,Soluongtonkho
+TABLE:Quanao Chatvai,Nhasanxuat,Noisanxuat
+TABLE:Soi Mausau,Kichthuoc
+TABLE:Daily MaDL(PrimaryKey),TenchuDL,Diachi,SDT,Thanhtoan
+TABLE:Nhanvien MaNV(PrimaryKey),Hovaten,SDT,Diachi
+TABLE:Thannhan MaTN(PrimaryKey),Hovaten
+TABLE:Hoadon MaHD(PrimaryKey),Ngaylap
+TABLE:ChiTietHoaDon Soluongmua
+
+
+(n,n):Sanpham,Hoadon->ChiTietHoaDon
+(1,n):Daily,Hoadon-Daily,Nhanvien
+(1,1):Nhanvien,Thannhan
+(Cha,Con):Sanpham,Quanao-Sanpham,Soi
+
+
+
